@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is a testing demo page">
+    <meta name="keywords" content="testing,html,demo">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>一个LPL观众的个人主页</title>
+    <link rel="stylesheet" type="text/css" href="project.css">
+    <style type="text/css">
+    	body{
+		background-color: gray;
+		background-image: url(img/1.jpg);
+		}
+		 
+		 
+		a{
+		color: grey;
+		text-decoration: none;
+		}
+		 
+		 
+		#head{
+		width: 960px;
+		margin: auto;
+		border-bottom: dotted 1px white;
+		margin-bottom: 10px;
+		}
+		 
+		 
+		.logo_title{
+		    float: left;
+		}
+		 
+		 
+		.logo_title h1{
+		font-size: 30px;
+		color: white;
+		}
+		 
+		 
+		.logo_title h2{
+		font-size: 20px;
+		color: white;
+		}
+		 
+		 
+		.navi{
+		float: right;
+		}
+		 
+		 
+		.navi ul{
+		list-style: none;
+		margin-top: 75px;
+		}
+		 
+		 
+		.navi ul li{
+		display: inline-block;
+		font-size: 20px;
+		color: white;
+		margin-right: 20px;
+		}
+		 
+		 
+		.navi ul li a{
+		color: white;
+		   border:solid 1px white;
+		   border-radius: 6px;
+		   padding: 4px;
+		   padding-left: 14px;
+		   padding-right: 14px;
+		}
+		 
+		 
+		.clear{
+		clear: both;
+		}
+		#wrapper{
+		margin: auto;
+		width: 960px;
+		margin-top: 20px;
+		}
+		 
+		 
+		.main{
+		   width: 640px;
+		   background-color: white;
+		   float: left;
+		   margin-right:10px;
+		   padding: 20px;
+		   border-radius: 4px;
+		}
+		 
+		 
+		.item{
+		margin-top: 14px;
+		padding-bottom: 20px;
+		border-bottom: dotted 1px #999;
+		 
+		 
+		}
+		 
+		 
+		.item_img{
+		float: left;
+		width: 100px;
+		}
+		 
+		 
+		.item_img img{
+		width: 80px;
+		height: 80px;
+		}
+		 
+		 
+		.item_content{
+		    /*padding-left: 100px;*/
+		    /*float: right;*/
+		    margin-bottom: 10px;
+		}
+		 
+		 
+		.item_content h3{
+		font-size: 14px;
+		color: #FF6347;
+		margin: 0;
+		}
+		 
+		 
+		.item_info{
+		font-size: 12px;
+		font-style: italic;
+		margin:0;
+		color: #999;
+		}
+		 
+		 
+		.item_desc{
+		font-size: 14px;
+		margin: 0;
+		color: gray;
+		margin-top:10px; 
+		border-left: solid 1px #ccc;
+		padding-left: 10px;
+		}
+		 
+		 
+		 
+		 
+		.side{
+		   width: 220px;
+		   background-color: white ;
+		   float: right;
+		   padding: 20px;
+		   border-radius: 6px;
+		   margin-left: 10px;
+		}
+		 
+		 
+		.author_img{
+		   margin-top: 20px;
+		   width: 120px;
+		   margin:auto;
+		}
+		 
+		 
+		.author_img img{
+		width: 120px;
+		border:solid 1px #ccc;
+		border-radius: 4px;
+		}
+		 
+		 
+		.author_desc{
+		   text-align: center;
+		   border:solid 1px #ccc;
+		   border-radius: 4px;
+		   background-color: #eee;
+		   padding-top:10px;
+		   padding-bottom: 10px;
+		   margin-top: 10px;
+		   margin-bottom: 10px;
+		}
+		 
+		 
+		.author_desc h4{
+		margin:0;
+		margin-bottom: 10px;
+		}
+		 
+		 
+		.author_desc p{
+		margin:0;
+		font-size: 14px;
+		margin-bottom: 10px;
+		}
+		 
+		 
+		.top_article h4{
+		font-size:14px;
+		font-style: italic;
+		margin:0;
+		border-bottom: dotted 1px #999;
+		border-top: 10px;
+		}
+		 
+		 
+		.top_article ul{
+		margin-left:0;
+		padding-left:10px;
+		list-style: none;
+		 
+		 
+		}
+		 
+		 
+		.top_article ul li{
+		margin:0;
+		font-size: 14px;
+		margin-top: 5px;
+		 
+		 
+		}
+		 
+		 
+
+		.site-info{
+		margin-top: 30px;
+		border-top: solid 1px #ccc;
+		}
+		 
+		 
+		.site-info p{
+		font-size: 14px;
+		color: gray;
+		text-align: center;
+		padding-left: 60px;
+		margin:0;
+		margin-top: 10px;
+		}
+		 
+		 
+		#footer{
+		margin: auto;
+		width: 960px;
+		border-top: dotted 1px #ccc;
+		margin-top: 20px;
+		}
+		 
+		 
+		.site_about{
+		float: left;
+		padding-top: 15px;
+		}
+		 
+		 
+		.site_about p{
+		font-size: 16px;
+		color: white;
+		}
+		 
+		 
+		.site_link{
+		float: right;
+		}
+		 
+		 
+		.site_link ul{
+		list-style: none;
+		margin-top: 30px;
+		}
+		 
+		 
+		.site_link ul li{
+		display: inline-block;
+		font-size: 14px;
+		margin-right: 10px;
+		color: white;
+		}
+		 
+		 
+		.site_link ul li a{
+		border-radius: 6px;
+		border:solid 1px white;
+		padding: 4px;
+		padding-left: 10px;
+		padding-right: 10px;
+		color: white;
+		}
+
+    </style>
+</head>
+<body>
+    <div id="head">
+        <div class="logo_title">
+               <h1>名梗名场面</h1>
+               <h2>学生个人主页</h2>
+        </div>
+        <div class="navi">
+           <ul>
+               <li><a href = "">新闻</a></li>
+               <li><a href = "">视频</a></li>
+               <li><a href = "">图片</a></li>
+           </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+ 
+ 
+    <div id="wrapper">
+        <div class="main">
+              <div class="item">
+                 <div class="item_img">
+                    <img src="img/ts.jpg"  alt="Testing Demo Project pic">
+                 </div>
+                 <div class="item_content">
+                    <h3>天不生我姜承禄，上单万古如长夜</h3>
+                    <p class="item_info">作者：afa  发表于：2021年12月29号</p>
+                    <p class="item_desc">大灭剑魔河道一打四<br>
+                    单枪匹马似修罗，一半天使一半魔</p>
+                 </div>
+              </div>
+              <div class="item">
+                 <div class="item_img">
+                    <img src="img/inb.JPG"  alt="Testing Demo Project pic">
+                 </div>
+                 <div class="item_content">
+                    <h3>我坐镇中路，定当大杀四方</h3>
+                    <p class="item_info">作者：afa  发表于：2021年12月28号</p>
+                    <p class="item_desc">super carry doinb<br>
+                    离别不是结束，前路皆是征途！</p>
+                 </div>
+              </div>
+ 
+ 
+              <div class="item">
+                 <div class="item_img">
+                    <img src="img/uzi.JPG"  alt="Testing Demo Project pic">
+                 </div>
+                 <div class="item_content">
+                    <h3>神之归来，可否加冕？</h3>
+                    <p class="item_info">作者：afa  发表于：2021年12月27号</p>
+                    <p class="item_desc">乌兹，yyds！<br>
+                    无冕之王 澡盆滴神！</p>
+                 </div>
+              </div>
+        </div>
+        <div class="side">
+              <div class="author_info">
+                   <div class="author_img">
+                      <img src="img/afa.jpg" alt="Testing Demo project pic">
+                   </div>
+                   <div class="author_desc">
+                      <h4>afa</h4>
+                      <p>一个擅长仰卧起坐的观众<br>
+                        LPL冲冲冲</p>
+                   </div>
+              </div>
+              <div class="top_article">
+                   <h4>推荐文章</h4>
+                   <ul>
+                   <li>你怎么又不放大招</li>
+                   <li>把把选个弱势打野</li>
+                   <li>我真的在拉扯了</li>
+                   <li>学一下酒桶纳尔就这么难吗</li>
+                   <li>#wink状态#</li>
+                   </ul>
+              </div>
+              <div class="site-info">
+                   <p>访客：777</p>
+                   <p>文章：77篇</p>
+
+              </div>
+        </div>
+        <div class="clear"></div>
+ 
+ 
+    </div>
+    <div id="footer">
+      <div class="site_link">
+           <ul>
+              <li><a href = "">档案</a></li>
+              <li><a href = "">故事</a></li>
+              <li><a href = "">关于我们</a></li>
+              <li><a href = "">联系我们</a></li>
+           </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+</body>
+</html>
